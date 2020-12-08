@@ -3,6 +3,7 @@
 const styleSwitcherToggler = document.querySelector(".style-switcher-toggler");
 styleSwitcherToggler.addEventListener("click", () => {
 	document.querySelector(".style-switcher").classList.toggle("open");
+	styleSwitcherToggler.querySelector("i.fas").classList.toggle("fa-spin");
 })
 
 // hide style switcher on scroll
