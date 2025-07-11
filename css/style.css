@@ -870,6 +870,31 @@ img {
 	margin: 15px 0 0;
 }
 
+.timeline-item-inner{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 15px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.timeline-item-inner:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    z-index: 10;
+}
+
+body.dark .timeline-item-inner {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(255,255,255,0.1);
+}
+
+body.dark .timeline-item-inner h5,
+body.dark .timeline-item-inner span{
+    color: #ffffff;
+}
+
 
 /*--------------- SERVICE SECTION -------------------*/
 
@@ -1428,6 +1453,30 @@ img {
 	line-height: 40px;
 }
 
+.testi-slider{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 15px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.testi-slider:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    z-index: 10;
+}
+
+body.dark .testi-slider {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(255,255,255,0.1);
+}
+
+body.dark .testi-slider h5,
+body.dark .testi-slider span{
+    color: #ffffff;
+}
 
 
 /*------------------------------- contact section ---------------------------------*/
